@@ -22,7 +22,7 @@ window.onload = function () {
   var buttonIncrease = document.getElementById('button-increase');
   var buttonDecrease = document.getElementById('button-decrease');
   var buttonReset = document.getElementById('button-reset');
-  var Interval ;
+  var Interval;
 
   buttonIncrease.onclick = function() {
     if(bet < points){
@@ -36,7 +36,7 @@ window.onload = function () {
  buttonDecrease.onclick = function() {
   if(bet > 0){
     bet = bet - 10;
-    points = points +10;
+    points = points + 10;
   }
   appendBet.innerHTML = bet;
   appendPoints.innerHTML = points;
@@ -125,11 +125,11 @@ buttonHalf.onclick = function() {
         document.getElementById("button-reset").style.display = "block";
     }
     
-    if(tens <= 9){
+    if(tens <= 9) {
       appendTens.innerHTML = "0" + tens;
     }
     
-    if (tens > 9){
+    if (tens > 9) {
       appendTens.innerHTML = tens;
       
     } 
@@ -142,11 +142,8 @@ buttonHalf.onclick = function() {
       appendTens.innerHTML = "0" + 0;
     }
     
-    if (seconds > 9){
+    if (seconds > 9) {
       appendSeconds.innerHTML = seconds;
     }
-  
   }
-  
-
 }

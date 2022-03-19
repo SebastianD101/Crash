@@ -1,7 +1,7 @@
 /* Variabes */
 /* Mixin's */
 body {
-  background: #ffa600;
+  background: #121212;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100%;
 }
@@ -40,7 +40,7 @@ h1, h2, h3 {
 button {
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  background: #ffa600;
+  background: #121212;
   color: #fff;
   border: solid 1px #fff;
   text-decoration: none;
@@ -57,6 +57,6 @@ button:hover {
   transition: all 0.5s ease-in-out;
   background: #fff;
   border: solid 1px #fff;
-  color: #ffa600;
+  color: #121212;
 }
 /*# sourceMappingURL=style.css.map */
